@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ quierrez ser mi novia ♥</title>
+  <style>
+    .body {
+      background-color: rgb(201, 18, 161);
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 90%;
+      max-width: 400px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ Quieres ser mi  novia ♥</h1>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5I9l_sputLtE15zMLZ3OGk0z14DKhC1cvxA&usqp=CAU" alt="Foto D My" class="body__img" />
+  
+  <br>
+  <button id="yes">🌚chi🌚</button>
+  <button id="no">😭Nel Perro😭</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞Ahuevooooo💞');
+      alert('😱Me  Encantas 😱');
+      location.href = 'https://www.youtube.com/watch?v=Qwk9m4NtCOo';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
